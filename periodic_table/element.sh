@@ -18,7 +18,10 @@ then
   RESULT=$($PSQL "$QUERY WHERE elements.atomic_number = $1")
 else
   RESULT=$($PSQL "$QUERY WHERE elements.symbol = '$1' OR elements.name = '$1'")
-fi
+fi  
+
+
+
 
 if [[ -z $RESULT ]]
 then

@@ -141,3 +141,6 @@ pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
 git status
 git commit -m "fix: remove trailing zeros from atomic_mass values"
 git status
+git status
+git add .
+git commit -m "chore: fix "
