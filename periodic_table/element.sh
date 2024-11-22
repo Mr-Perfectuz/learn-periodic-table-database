@@ -20,9 +20,6 @@ else
   RESULT=$($PSQL "$QUERY WHERE elements.symbol = '$1' OR elements.name = '$1'")
 fi  
 
-
-
-
 if [[ -z $RESULT ]]
 then
   echo "I could not find that element in the database."
