@@ -101,3 +101,23 @@ git add .
 git log --oneline
 touch element.sh
 git add element.sh
+ls --color=auto
+cd ..
+ls --color=auto
+touch element.sh
+git rebase -i --root
+git status
+git add .
+git rm --cached periodic_table/periodic_table
+cd periodic_table/periodic_table
+git status
+git restore --staged periodic_table
+ls --color=auto -a periodic_table
+rm -rf periodic_table/.git
+git status
+git add element.sh
+On branch main
+git add .
+git status
+git commit -m "Initial commit"
+git push
