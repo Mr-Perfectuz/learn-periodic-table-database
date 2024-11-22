@@ -121,3 +121,16 @@ git add .
 git status
 git commit -m "Initial commit"
 git push
+git status
+git push
+ld
+ls --color=auto
+rm -rf .git
+ls --color=auto
+git push
+git statu s
+git status
+git add .
+git status
+git commit -m "refactor: fix "
+git push
